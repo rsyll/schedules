@@ -16,6 +16,7 @@
                 "morning cook rice (roche)",
                 "buy dinner (3)",
                 "throw trash(ronian)"
+                "lock gate(ronian)"
             ],
             Tuesday: [
                 "wash dishes (pau)",
@@ -23,6 +24,7 @@
                 "evening cook rice (ronian)",
                 "tidy space(all)",
                 "sweep the floor(morning;ronian)"
+                 "lock gate(ronian)"
             ],
             Wednesday: [
                 "wash dishes (roche)",
@@ -30,6 +32,7 @@
                 "evening cook rice (pau)",
                 "sweep outside/inside (chelle)",
                 "grocery(chelle/pau)"
+                 "lock gate(ronian)"
             ],
             Thursday: [
                 "wash dishes (ronian)",
@@ -37,13 +40,15 @@
                 "morning cook rice (roche)",
                 "buy dinner (3)",
                 "throw trash(ronian)"
+                 "lock gate(ronian)"
             ],
             Friday: [
                "wash dishes (pau)",
                 "morning cook rice (roche)",
                 "evening cook rice (ronian)",
                 "tidy space(all)",
-                "sweep the floor(morning;ronian)"
+                "sweep the floor(morning;ronian),
+                 "lock gate(ronian)"
             ],
             Saturday: [
                "wash dishes (roche)",
@@ -189,4 +194,5 @@
         // Helper: Format date as MM/DD/YYYY
         function formatDate(date) {
             return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+
         }
